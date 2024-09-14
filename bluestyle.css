@@ -2,11 +2,32 @@ body {
 background-color: #4f5b5e;
 }
 
-h1{
-color: #dfeef2;
+h1, h3{
+color: lightblue;
 margin-left: 20px;
 }
+
 pre{
-color:#dfeef2;
+color:lightblue;
 margin-left: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
